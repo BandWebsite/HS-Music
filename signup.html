@@ -1,18 +1,19 @@
 <html>
 <head>
 <title>Sign Up</title>
-<link rel="shortcut icon" href="assets/logo.PNG" />
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Garamond&display=swap" rel="stylesheet">
 <style>
 body {
-background: lineargradient(
-rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url("assets/login.jpg");
+background:  lineargradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+background-image: url("assets/bg.jpg");
+background-repeat:no-repeat;
+background-size:cover;
 }
 #container {
-position: absolute;
-height: 72%;
+position: relative;
+height: auto;
 width: 35%;
 left: 32.5%;
 top: 16%;
@@ -20,11 +21,7 @@ background: rgba(255, 255, 255, 0.9);
 border: 1px solid transparent;
 border-radius: 10px;
 text-align: center;
-}
-#form {
-position: absolute;
-width: 100%;
-height: 100%;
+opacity: 0.7;
 }
 input[type="text"],
 input[type="password"] {
@@ -36,12 +33,6 @@ outline: 0;
 border: 0px transparent;
 border-radius: 10px;
 font-family: "Garamond";
-}
-#logo {
-margin-top: 5px;
-width: 100px;
-height: 100px;
-margin-bottom: 10px;
 }
 p {
 font-family: "Garamond";
@@ -70,7 +61,6 @@ font-size: 200%;
 </head>
 <body>
 <header>
-<img style="height:100%;width:5%" src="assets/musiclogo.jpg">
 <ul id="head_ul">
 <a href="login.html">
 <li class="head_li">Login</li>
@@ -83,7 +73,6 @@ font-size: 200%;
 <div id="container">
 <div id="form">
 <form action="login.html" method="POST">
-<!-- <img id="logo" src="login_logo.png"> -->
 <h2>Sign Up</h2>
 <div style="display: inline;margin:10px 10px">
 <input type="text" style="width:37%" name="user[first_name]" required placeholder="First Name">
@@ -98,14 +87,11 @@ font-size: 200%;
 </div>
 </div>
 <footer>
-<div style="display: inline;">
-<span style="padding-top:15px;padding-left: 15px;float: left;">Clickclinic � 2020 Website Designed & Maintenance By RS Techies</span>
-<div style="display: inline;float:right;margin-right: 30px;">
-<a href="https://www.facebook.com/unitednations/" class="fa fa-facebook"></a>
-<a href="https://twitter.com/UN?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a>
-<a href="https://in.linkedin.com/company/unitednations" class="fa fa-linkedin"></a>
-<a href="https://www.instagram.com/unitednations" class="fa fa-instagram"></a>
-</div>
+<div style="display: inline; float:right; margin-right: 30px;">
+<a href="https://www.facebook.com" class="fa fa-facebook"></a>
+<a href="https://twitter.com" class="fa fa-twitter"></a>
+<a href="https://in.linkedin.com" class="fa fa-linkedin"></a>
+<a href="https://www.instagram.com" class="fa fa-instagram"></a>
 </div>
 </footer>
 </body>
