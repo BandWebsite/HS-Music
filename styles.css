@@ -193,7 +193,7 @@ html, body {
 }
 
 .tour-date {
-    color: #555;
+    color: white;
     width: 11%;
     font-weight: bold;
 	color: white;
@@ -223,7 +223,7 @@ html, body {
     text-align: center;
     font-weight: bold;
     font-size: 1.5em;
-    color: #333;
+    color: white;
     margin-bottom: 15px;
 }
 
@@ -239,19 +239,20 @@ html, body {
 
 .shop-item-price {
     flex-grow: 1;
-    color: #333;
+     color: white;
 }
 
 .shop-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+	color: white;
 }
 
 .cart-header {
     font-weight: bold;
     font-size: 1.25em;
-    color: #333;
+    color: white;
 }
 
 .cart-column {
@@ -261,20 +262,23 @@ html, body {
     margin-right: 1.5em;
     padding-bottom: 10px;
     margin-top: 10px;
+	color: white;
 }
 
 .cart-row {
     display: flex;
+	color: white;
 }
 
 .cart-item {
     width: 45%;
+	color: white;
 }
 
 .cart-price {
     width: 20%;
     font-size: 1.2em;
-    color: #333;
+     color: white;
 }
 
 .cart-quantity {
@@ -282,7 +286,7 @@ html, body {
 }
 
 .cart-item-title {
-    color: #333;
+     color: white;
     margin-left: .5em;
     font-size: 1.2em;
 }
@@ -335,12 +339,12 @@ html, body {
 .cart-total-title {
     font-weight: bold;
     font-size: 1.5em;
-    color: black;
+    color: white;
     margin-right: 20px;
 }
 
 .cart-total-price {
-    color: #333;
+    color: white;
     font-size: 1.1em;
 }
 
