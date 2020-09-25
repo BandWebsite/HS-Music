@@ -27,11 +27,12 @@ html, body {
 
 .nav li {
     display: inline;
+    font-size: 1.5  em;
 }
 
 .nav a {
     display: inline-block;
-    padding: .5em;
+    padding: 1em 0.1em;
     color: white;
     text-decoration: none;
 }
@@ -44,16 +45,15 @@ html, body {
     text-align: center;
     font-size: 1.1em;
     font-weight: lighter;
-    border-bottom: 1px solid rgba(255, 255, 255, .3)
 }
 
 .main-nav li {
-    padding: 0 5%;
+    padding: 0 1%;
 }
 
 .main-header {
     background-color: rgba(0, 0, 0, .6);
-    background-image: url("main-header6.jpg");
+    background-image: url("../assets/main-header6.jpg");
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
@@ -62,15 +62,17 @@ html, body {
 .band-name {
     text-align: center;
     margin: 0;
-    font-size: 4em;
+    font-size: 3em;
     font-family: "Booter - Zero Zero";
     font-weight: 900;
     color: white;
+    
 	
 }
 
 .band-name-large {
-    font-size: 8em;
+    font-size: 7em;
+    padding:0.6em 0;
 	
 }
 
@@ -101,7 +103,7 @@ html, body {
 }
 
 .main-footer {
-    background-color: #ffd1dc;
+    background-color: #ffc0cb;
     color: white;
     padding: .25em 0;
 	

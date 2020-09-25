@@ -12,12 +12,13 @@
 * {
     box-sizing: border-box;
     font-family: Raleway;
-    color: #777;
+    color:white;
 }
 
 html, body {
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 .nav ul {
@@ -39,11 +40,10 @@ html, body {
     text-align: center;
     font-size: 1.1em;
     font-weight: lighter;
-    border-bottom: 1px solid rgba(255, 255, 255, .3)
 }
 
 .main-nav li {
-    padding: 0 5%;
+    padding: 0 1%;
 }
 
 .nav a:hover {
@@ -52,7 +52,7 @@ html, body {
 
 .main-header {
     background-color: rgba(0, 0, 0, .6);
-    background-image: url("assets/Header Background.jpg");
+    background-image: url("../assets/main-header6.jpg");
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
@@ -61,18 +61,20 @@ html, body {
 .band-name {
     text-align: center;
     margin: 0;
-    font-size: 4em;
+    font-size: 3em;
     font-family: "Booter - Zero Zero";
-    font-weight: normal;
+    font-weight: 900;
     color: white;
 }
 
 .band-name-large {
-    font-size: 8em;
+    font-size: 7em;
+    padding:0.6em 0;
 }
 
 .content-section {
     margin: 1em;
+    padding:1em 2.5em;
 }
 
 .container {
@@ -82,22 +84,22 @@ html, body {
 }
 .section-header {
     font-family: "Metal Mania";
-    font-weight: normal;
-    color: #333;
+    font-weight: bold;
+    color:white;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
-.about-band-image {
+.about-image {
     float: left;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     margin: 15px;
     border-radius: 50%;
 }
 
 .main-footer {
-    background-color: #56CCF2;
+    background-color:  #ffc0cb;
     color: white;
     padding: .25em 0;
 }
