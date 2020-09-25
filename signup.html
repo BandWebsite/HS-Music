@@ -1,85 +1,32 @@
 <html>
 <head>
 <title>Sign Up</title>
-<link rel="stylesheet" href="css/style3.css">
+<link rel="stylesheet" href="css/video.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Garamond&display=swap" rel="stylesheet">
-<style>
-body {
-background:  lineargradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
-background-image: url("assets/bg.jpg");
-background-repeat:no-repeat;
-background-size:cover;
-}
-#container {
-position: relative;
-height: auto;
-width: 35%;
-left: 32.5%;
-top: 16%;
-background: rgba(255, 255, 255, 0.9);
-border: 1px solid transparent;
-border-radius: 10px;
-text-align: center;
-opacity: 0.7;
-}
-input[type="text"],
-input[type="password"] {
-padding: 7px 10px;
-font-size: 20px;
-margin: 10px 10px;
-width: 80%;
-outline: 0;
-border: 0px transparent;
-border-radius: 10px;
-font-family: "Garamond";
-}
-p {
-font-family: "Garamond";
-}
-input[type="submit"] {
-margin-top: 25px;
-padding: 10px;
-font-size: 20px;
-margin: 22px 10px 10px 10px;
-width: 80%;
-outline: 0;
-border: 0px transparent;
-border-radius: 10px;
-font-family: "Garamond";
-}
-input[type="submit"]:hover {
-opacity: 0.8;
-}
-h2 {
-font-family: Garamond;
-font-weight: 700;
-letter-spacing: 0.1em;
-font-size: 200%;
-}
-</style>
+
 </head>
 <body>
-<header>
-<ul>
-    <li><a href="Home.html" target="_basic">HOME</a></li>
-	<li><a href="store.html" target="_basic">STORE</a></li>
-	<li><a href="About.html">ABOUT</a></li>
-	<li><a href="Videosongs.html">VIDEO SONGS</a></li>
-	<li><a href="login.html">LogIn</a> </li>
-</ul>
-</header>
+	<header class="main-header">
+		<nav class="main-nav nav">
+		<ul>
+    				<li><a href="Login.html">LOGIN</a> </li>
+                    <li><a href="Home.html">HOME</a></li>
+                	<li><a href="store.html">STORE</a></li>
+                	<li><a href="About.html">ABOUT</a></li>
+                	<li><a href="Songs.html">SONGS</a></li>
+		</ul>
+		</nav>
+	</header>
 <div id="container">
 <div id="form">
 <form action="login.html" method="POST">
 <h2>Sign Up</h2>
-<div style="display: inline;margin:10px 10px">
-<input type="text" style="width:37%" name="user[first_name]" required placeholder="First Name">
-<input type="text" style="width:37%" name="user[last_name]" required placeholder="Last Name"><br>
-</div>
+<input type="text" name="user[first_name]" required placeholder="First Name"><br>
+<input type="text" name="user[last_name]" required placeholder="Last Name"><br>
 <input type="text" name="user[username]" required placeholder="Username"><br>
 <input type="password" name="user[password]" required placeholder="Password"><br><br>
-<input type="checkbox" style="margin-left:0px" required name="" id=""> I accept the <span style="color:rgb(33, 112, 214)">Terms Of Use</span> and <span style="color:rgb(33, 112, 214)">Privacy Policy</span>.
+<input type="checkbox" required name="" id=""> I accept the <span style="color:rgb(33, 112, 214)">Terms Of Use</span> and <span style="color:rgb(33, 112, 214)">Privacy Policy</span>.
 <input type="submit" value="Join Now" style="color:white;background:#00008B;">
 <p>Already have an account? <span><a href="Login.html">Login</a></span></p>
 </form>
