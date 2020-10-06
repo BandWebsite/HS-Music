@@ -191,7 +191,7 @@ html, body {
 .tour-item {
     display: inline-block;
     padding-right: .5em;
-	color: white;
+	color: black;
 }
 
 .tour-date {
