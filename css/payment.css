@@ -1,11 +1,10 @@
-html { 
-  background: url("https://jmd.im/wp-content/uploads/2017/06/blackiv_thumbnail.jpg") no-repeat center center fixed;
+
+body{
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-body{
+
   font-family:sans serif;
   color:white;
 }
@@ -14,6 +13,7 @@ body{
   margin:2rem auto;
   border:2px solid;
   padding:2rem;
+  color:white;
   border-radius: 5px;
   background-color:rgba(0,0,0,0.2);
   font-weight: bolder;

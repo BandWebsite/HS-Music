@@ -63,17 +63,22 @@
         <td> <label for="password">CONFIRM PASSWORD</label>  </td>
         <td> <input type="password" id="password" name="password" placeholder="Enter password" required>  </td>
       </tr>
-
     </table>
-     
-
-
   </form>
-
-    
+  
     </div>
     <div class="button-div">
-    <button class="button"><span>Confirm Order</span></button>
+    	<form action="submit.php" method="POST">
+        <script
+        src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+        data-key="<?php echo $publishableKey?>"
+        data-amount="<?number_format($total_price)?>"
+        data-name="Are you sure to buy <?= $pname; ?> ?" 
+        data-description="Thanks for shopping with us"
+        data-currency="inr"
+        >
+        </script>	
+      </form>
 </div>
   </body>
 </html>
