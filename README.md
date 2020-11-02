@@ -1,2 +1,2 @@
 # website
-my first website, a website for a celebrity.
+my first website, a website for a celebrity, with many different features.
